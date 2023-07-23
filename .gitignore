@@ -118,3 +118,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+LCSTS_new.zip
+LCSTS_new/License.pdf
+LCSTS_new/dev.json
+LCSTS_new/train.json

@@ -1390,6 +1390,8 @@ MODEL_CLASSES = {
     'cpt': [CPTForConditionalGeneration, CPTTokenizer],
     't5copy': [T5Copy, JieBaTokenizer],
     't5-pegasus': [T5ForConditionalGeneration, JieBaTokenizer],
+    # 't5copy': [T5Copy, T5Tokenizer],
+    # 't5-pegasus': [T5ForConditionalGeneration, T5Tokenizer],
     'pegasus': [PegasusForConditionalGeneration, PegasusTokenizer],
     'lm': [AutoModelForCausalLM, AutoTokenizer],
     'seq2seq': [AutoModelForSeq2SeqLM, AutoTokenizer],
